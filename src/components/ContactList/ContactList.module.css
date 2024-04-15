@@ -1,8 +1,10 @@
 .list {
   display: flex;
+  padding: 0;
+  gap: 8px;
   flex-wrap: wrap;
-  gap: 15px;
 }
-.item {
-  width: calc((100% - 45px) / 4);
+
+.listItem {
+  list-style-type: none;
 }
